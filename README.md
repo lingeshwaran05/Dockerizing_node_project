@@ -334,3 +334,33 @@ newly created Docker image
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/38342cb1-4116-4931-9c9b-87ae2cf25e4f)
 
+
+## step 6 -  add the docker image to docker hub
+
+1. login into docker hub ```docker login -u your_dockerhub_username```
+2.  push the image to your repo ```docker push your_dockerhub_username/nodejs-image-demo```
+3.  list your running containers: ```docker ps```
+4.  List your all of your images with the -a flag: ```docker images -a```
+5.  ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/e5235ab6-ad1d-4684-96a3-a4a5cfe3704d)
+
+6. now deleted all the files locally using ```docker system prune -a```
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/fb7a2781-4d9c-4f2d-a198-bcb2a0449e4d)
+
+
+
+8. pull from our repo ```docker pull your_dockerhub_username/nodejs-image-demo```
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/2c81849b-54f2-4c99-bdfc-762bc236173b)
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/b8227826-2e2b-44d5-8fd1-65298b14806c)
+
+
+10. List your images once again: ```docker images```
+11. ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/bea7e509-a03c-46d0-9cc3-97d6097f7fbc)
+
+12. run it ```docker run --name nodejs-image-demo -p 80:8080 -d your_dockerhub_username/nodejs-image-demo```
+13. you'll see the same output
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/e13c8de8-3f52-4ac1-83e6-fd0e5f0fc243)
+

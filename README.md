@@ -302,6 +302,8 @@ newly created Docker image
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/30799d38-9d7b-4139-9ee2-b52a2926e6f9)
 
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/786de498-70de-4018-99e2-ea37564ab018)
+
 
 6. view the docker process 
 

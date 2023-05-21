@@ -233,3 +233,8 @@ div.caption: {
 2. start the application ```node app.js```
 3. Application is running on port  ```http://127.0.0.1:8080/```
 4. terminal output ```Example app listening on port 8080!```
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/a8c2137d-406f-4604-b436-cb1209b88efe)
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/de088e3c-a66f-4163-a3bf-dc2b95e069c8)
+

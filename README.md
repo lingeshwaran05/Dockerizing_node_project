@@ -302,17 +302,23 @@ newly created Docker image
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/30799d38-9d7b-4139-9ee2-b52a2926e6f9)
 
+
+6. view the docker process 
+
+
+
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/786de498-70de-4018-99e2-ea37564ab018)
 
 
-6. view the docker process 
+
+7. view the webpage in ```http://127.0.0.1`` port not in ```http://127.0.0.1:8080```
+
 
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/0dec91a8-99b1-4375-900c-a51c6af378f5)
 
 
 
-7. view the webpage in ```http://127.0.0.1`` port not in ```http://127.0.0.1:8080```
 
 
 

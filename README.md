@@ -295,6 +295,8 @@ CMD [ "node", "app.js" ]
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/30799d38-9d7b-4139-9ee2-b52a2926e6f9)
 
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/786de498-70de-4018-99e2-ea37564ab018)
+
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/0dec91a8-99b1-4375-900c-a51c6af378f5)
 

@@ -238,3 +238,49 @@ div.caption: {
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/de088e3c-a66f-4163-a3bf-dc2b95e069c8)
 
+
+## Step 5 — Writing the Dockerfile
+ 
+1. create the Dockerfile in root directory ```nano Dockerfile```
+2. set the base image , here we are using alphine because it is smaller
+```FROM node:10-alpine```
+3. instead of running in root directory we make non root node user to run the project without any dependencies and giving all permissions to the directory
+```RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app```
+4. create a working directory ```WORKDIR /home/node/app```
+5. copy package.json dependancies to the current working directory ```COPY package*.json ./```
+6. create a node user ```USER node```
+7. main part code to run out node project ```RUN npm install```
+8. copy application code with the appropriate permissions to the application directory on the container ```COPY --chown=node:node . . ```
+9. set the port on the container  to start the project 
+```EXPOSE 8080
+
+CMD [ "node", "app.js" ]
+```
+overall code :
+
+```
+FROM node:10-alpine
+
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+
+WORKDIR /home/node/app
+
+COPY package*.json ./
+
+USER node
+
+RUN npm install
+
+COPY --chown=node:node . .
+
+EXPOSE 8080
+
+CMD [ "node", "app.js" ]
+```
+
+## step 6 - build the docker image 
+
+1. ```docker build -t your_dockerhub_username/nodejs-image-demo .```
+2. ```docker images```
+
+3. 

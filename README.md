@@ -285,24 +285,43 @@ CMD [ "node", "app.js" ]
 
 3. ```docker images```
 
+newly created Docker image
+
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/b7d00b5c-7c37-4e1a-82bb-6d831ee9fdb8)
+
+
+4. Our newly created docker image will be on Docker desktop in ```unused state```
 
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/5bb2c1f3-c487-4cd0-b7c7-4babff79b17a)
 
 
 
+5. Now we can run the docker image with ```docker run --name nodejs-image-demo -p 80:8080 -d your_dockerhub_username/nodejs-image-demo``` or run it manually in docker desktop environment
+
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/30799d38-9d7b-4139-9ee2-b52a2926e6f9)
 
 
+6. view the docker process 
+
+
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/0dec91a8-99b1-4375-900c-a51c6af378f5)
+
+
+
+7. view the webpage in ```http://127.0.0.1`` port not in ```http://127.0.0.1:8080```
+
 
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/8b839e45-e50f-4722-8247-81f87e632c05)
 
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/2e1bd310-c8ab-4409-9e21-6b711a8b8910)
+
+
+
+8. Now our Docker image is running which is shown in Docker Desktop
 
 
 ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/38342cb1-4116-4931-9c9b-87ae2cf25e4f)

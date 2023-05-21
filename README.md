@@ -281,6 +281,29 @@ CMD [ "node", "app.js" ]
 ## step 6 - build the docker image 
 
 1. ```docker build -t your_dockerhub_username/nodejs-image-demo .```
-2. ```docker images```
+2. ![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/dc4fa989-1d54-45ac-a183-3be636be7569)
 
-3. 
+3. ```docker images```
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/b7d00b5c-7c37-4e1a-82bb-6d831ee9fdb8)
+
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/5bb2c1f3-c487-4cd0-b7c7-4babff79b17a)
+
+
+
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/30799d38-9d7b-4139-9ee2-b52a2926e6f9)
+
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/0dec91a8-99b1-4375-900c-a51c6af378f5)
+
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/8b839e45-e50f-4722-8247-81f87e632c05)
+
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/2e1bd310-c8ab-4409-9e21-6b711a8b8910)
+
+
+![image](https://github.com/lingeshwaran05/Dockerizing_node_project/assets/76167753/38342cb1-4116-4931-9c9b-87ae2cf25e4f)
+
